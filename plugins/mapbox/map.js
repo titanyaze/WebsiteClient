@@ -1,10 +1,16 @@
+var w = window.innerWidth;
+var varzoom = 8.4
+if(w < 600)
+{
+  varzoom = 8
+}
 mapboxgl.accessToken =
   "pk.eyJ1IjoidGl0YW55YXplIiwiYSI6ImNsNWpwNXAxYjAyYmYzZG1wazF1ZHFoMmYifQ.mgu4-IMNOl-i870qOT8CRg";
 const map = new mapboxgl.Map({
   container: "map", // container ID
   style: "mapbox://styles/mapbox/streets-v10", // style URL
   center: [-0.1257136407963344, 51.507364637080826], // starting position
-  zoom: 8.4, // starting zoom
+  zoom: varzoom, // starting zoom
 });
 
 map.on("load", () => {
