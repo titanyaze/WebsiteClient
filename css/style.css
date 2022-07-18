@@ -1029,7 +1029,8 @@ ul.navbar-nav > li > a {
 
 .dropdown-menu {
   text-align: left;
-  background: #fff;
+  background: #23282d;
+  color: #ce0000;
   z-index: 100;
   min-width: 200px;
   border-radius: 0;
@@ -1078,8 +1079,8 @@ ul.navbar-nav > li > a {
   text-decoration: none;
   padding: 15px 0;
   letter-spacing: .3px;
-  border-bottom: 1px solid #e5e5e5;
-  color: #333333;
+  border-bottom: 1px solid #ce0000;
+  color: #fff;
 }
 
 @media (max-width: 991px) {
